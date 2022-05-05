@@ -33,7 +33,7 @@ include 'navbar.php';
                         <hr class="my-2">
                         <p>More info</p>
                         <p class="lead">
-                            <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Set Delivery Details!</a>
+                            <a class="btn btn-primary btn-lg" href="send-parcel.php" role="button">Set Delivery Details!</a>
                         </p>
                     </div>
                 </div>
@@ -43,30 +43,6 @@ include 'navbar.php';
     </div>
 </section>
 
-<section class="py-5 my-3">
-    <div class="container">
-        <form action="" method="post">
-            <div class="row">
-                <div class="col">
-                    <div class="input-group mt-5">
-                        <input type="text" name="order_id" placeholder="Enter Order Tracking ID" id="" class="form-control form-control-lg">
-                        <button type="submit" class="btn btn-primary">Search <i class="fas fa-search    "></i></button>
-                    </div>
-
-                </div>
-                <div class="col">
-                    <h1 class=" text-center fst-bold">
-                        Search an Order
-                    </h1>
-                    <p class="text-muted fs-6">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus omnis officiis rerum fuga cumque? Facere dolore ratione voluptates? Officiis, et.
-                    </p>
-                </div>
-            </div>
-        </form>
-    </div>
-
-</section>
 
 <section class="mt-5 py-5">
     <div class="container">

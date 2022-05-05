@@ -20,7 +20,7 @@ if (isset($_POST['login'])) {
         <form action="" method="post">
             <div class="row w-50 mx-auto mt-5">
                 <div class="col">
-                    <input type="text" name="email" placeholder="Enter Email" id="" class="form-control form-control-lg" required autofocus>
+                    <input type="text" name="email" placeholder="Enter Email" id="" class=" form-control-lg form-control" required autofocus>
                 </div>
                 <div class="col">
                     <input type="password" name="password" placeholder="Enter Password" id="" class="form-control form-control-lg" required>

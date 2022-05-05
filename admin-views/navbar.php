@@ -1,22 +1,18 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-3 sticky-top">
     <div class="container">
 
-        <a href="dash.php" class="navbar-brand"><?php echo $app_name ?></a>
+        <a href="admin-dashboard.php" class="navbar-brand"><?php echo $app_name ?></a>
         <div class="">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="send-parcel.php" class="nav-link">Send Parcel</a>
+                    <a href="manage-load-entry.php" class="nav-link">Load Entry</a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="parcel-status.php" class="nav-link">Parcel Status</a>
+                    <a href="manage-customers.php" class="nav-link">Customers</a>
                 </li>
-                <!-- <li class="nav-item">
-                    <a href="#" class="nav-link">History</a>
-                </li> -->
                 <li class="nav-item">
-                    <a href="profile.php" class="nav-link"><?php echo $_SESSION['fullname'] ?></a>
-                   
+                    <a href="manage-drivers.php" class="nav-link">Drivers</a>
                 </li>
                 <li class="nav-item">
                     <a href="logout.php" class="nav-link">Logout</a>
